@@ -1,5 +1,6 @@
 import React from 'react'
 import { AirtleTbodyData, AirtleTheadData } from '../../assets/TableData'
+import MakeOffer from '../../assets/MakeOffer/MakeOffer'
 
 export default function RobiBundles() {
   return (
