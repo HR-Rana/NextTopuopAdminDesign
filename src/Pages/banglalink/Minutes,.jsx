@@ -6,7 +6,7 @@ export default function BLMinutes() {
   return (
     <div>
        <div className='my-5'>
-        <h5>Airtle Minutes</h5>
+        <h5>Banglalink Minutes</h5>
       </div>
 
       <div className="table py-5 px-3 shadow-lg shadow-gray-500 w-full">
