@@ -29,8 +29,12 @@ table thead {
   @apply h-[50px]
 }
 
-table thead th {
-  @apply h-[50px]
+table thead, table tfoot {
+  @apply bg-slate-200 text-black
+}
+
+table thead th, table tfoot th {
+  @apply h-[50px] border-[1px] border-gray-300 p-2
 }
 
 table tr {

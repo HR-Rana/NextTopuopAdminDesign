@@ -1,23 +1,16 @@
 import React from 'react'
-import Table from '../../assets/Table/Table'
-import { TableBody, TableHeading } from '../../assets/TableData'
+import { AirtleTbodyData, AirtleTheadData } from '../../assets/TableData'
+import MakeOffer from '../../assets/MakeOffer/MakeOffer'
 
 export default function AirtleBundles() {
   return (
     <div>
-      <div className=''>
+      <div className='my-5'>
         <h5>Airtle Bundles</h5>
       </div>
 
-      <div className="table py-5 px-3 shadow-lg shadow-gray-500">
-          <div className="heading">
-              <span>
-                <input type="Search" placeholder='Search Here' value={''} />
-              </span>
-          </div>
-          <span>
-            <Table thData={TableHeading}  tbodyData={TableBody} />
-          </span>
+      <div className="table py-5 px-3 shadow-lg shadow-gray-500 w-full">
+      <MakeOffer thead={AirtleTheadData} tbody={AirtleTbodyData} />
       </div>
     </div>
   )

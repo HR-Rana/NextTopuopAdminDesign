@@ -47,9 +47,16 @@
 
 .list-items ul li span {
   width: 100%;
-  background-color: azure;
-  padding: 10px 15px;
+  height: 100%;
+  padding: 10px 0px;
   margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-items ul li span svg {
+  font-size: 18px;
 }
 
 .list-items ul ul {

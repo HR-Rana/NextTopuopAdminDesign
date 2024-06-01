@@ -99,3 +99,63 @@ export const UserTbody = [
         time: "02-5-2024"
     }
 ]
+
+
+
+
+export const AirtleTheadData = [
+    {
+        name: "প্যাকেজসমূহ"
+    },
+    {
+        name: "ডিসকাউন্ট"
+    },
+    {
+        name: "আজকের দাম"
+    },
+    {
+        name: "অফিসিয়াল দাম"
+    },
+    {
+        name: "	মেয়াদ / যেসব এরিয়া পাবে"
+    }, {
+        name: "Action"
+    }
+]
+
+
+
+export const AirtleTbodyData = [
+    {
+        id: "01",
+        package: "২৬০ মিনিট",
+        discount: "59 টাকা",
+        todyPrice: "	159 টাকা",
+        officialPrice: '220 টাকা',
+        Priod: "মেয়াদ মেয়াদ ৩০ দিন | সারা বাংলাদেশ পাবে"
+    },
+    {
+        id: "01",
+        package: "২৬০ মিনিট",
+        discount: "59 টাকা",
+        todyPrice: "	159 টাকা",
+        officialPrice: '220 টাকা',
+        Priod: "মেয়াদ মেয়াদ ৩০ দিন | সারা বাংলাদেশ পাবে"
+    },
+    {
+        id: "01",
+        package: "২৬০ মিনিট",
+        discount: "59 টাকা",
+        todyPrice: "	159 টাকা",
+        officialPrice: '220 টাকা',
+        Priod: "মেয়াদ মেয়াদ ৩০ দিন | সারা বাংলাদেশ পাবে"
+    },
+    {
+        id: "01",
+        package: "২৬০ মিনিট",
+        discount: "59 টাকা",
+        todyPrice: "	159 টাকা",
+        officialPrice: '220 টাকা',
+        Priod: "মেয়াদ মেয়াদ ৩০ দিন | সারা বাংলাদেশ পাবে"
+    }
+]
