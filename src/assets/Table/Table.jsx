@@ -37,7 +37,9 @@ export default function Table({thData, tbodyData}) {
                                     items.status ? <td>{items.status}</td> : null
                                 }
                                 <td>
-                                    <span className='flex justify-center gap-2'><button className='text-green-800'><FaEdit /></button> <button className='text-red-500'><FaTrashAlt /></button></span>
+                                    {
+                                        !items.mobile ? <span className='flex justify-center gap-2'><button className='text-green-800'><FaEdit /></button> <button className='text-red-500'><FaTrashAlt /></button></span> : <button className='bg-red-700 text-white rounded-md py-1 w-[80%] mx-auto'>Disable</button>
+                                    }
                                 </td>
                             </tr>
                         )
