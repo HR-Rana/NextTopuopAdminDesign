@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function Bundles() {
+export default function AirtleBundles() {
   return (
-    <div>Bundles</div>
+    <div>Airtle</div>
   )
 }

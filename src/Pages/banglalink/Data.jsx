@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function Data() {
+export default function BLData() {
   return (
-    <div>Data</div>
+    <div>BL</div>
   )
 }

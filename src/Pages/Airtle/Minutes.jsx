@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function Minutes() {
+export default function AirtleMinutes() {
   return (
-    <div>Minutes</div>
+    <div>Airtle</div>
   )
 }
