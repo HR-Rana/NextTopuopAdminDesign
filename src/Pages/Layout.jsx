@@ -9,13 +9,13 @@ import { IoMdArrowDropdown } from "react-icons/io";
 
 export default function Left_site_Layout() {
   return (
-    <div className="left-site-layout sticky top-0 rounded-md py-5 px-3">
-    <div className="left-sidebar">
-        <span>
-            <h6 className='text-[22px] text-purple-800 font-semibold py-5'>TONG-Topup</h6>
+    <div className="left-site-layout sticky top-0 rounded-md py-5">
+    <div className="left-sidebar ">
+        <span className=''>
+            <h6 className='text-[22px] text-purple-800 px-5 font-semibold py-5'>TONG-Topup</h6>
         </span>
         <hr />
-        <div className="list-items flex flex-col items-center">
+        <div className="list-items flex flex-col items-center mt-5">
             <ul>
                 <li> <Link to={"/Dashboard"} >Dashboard</Link> </li>
                 <li> <Link to={"/Admin/"} >Admin</Link> </li>
@@ -48,7 +48,8 @@ export default function Left_site_Layout() {
                         <li><Link to={"/Admin/Gp-Bundles"}>Bundles Package</Link></li>
                         <li><Link to={"/Admin/Gp-Minutes"}>Mintues Package</Link></li>
                     </ul>
-                 </li>
+                 </li> 
+                 <li> <span>Meta Tag <IoMdArrowDropdown /></span></li>
             </ul>
         </div>
     </div>
