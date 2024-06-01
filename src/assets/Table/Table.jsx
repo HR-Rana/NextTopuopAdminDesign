@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaEdit } from "react-icons/fa";
 import { FaTrashAlt } from "react-icons/fa";
+import { handleUserDisable } from '../Functons/Functons';
 
 
 export default function Table({thData, tbodyData}) {
@@ -38,7 +39,7 @@ export default function Table({thData, tbodyData}) {
                                 }
                                 <td>
                                     {
-                                        !items.mobile ? <span className='flex justify-center gap-2'><button className='text-green-800'><FaEdit /></button> <button className='text-red-500'><FaTrashAlt /></button></span> : <button className='bg-red-700 text-white rounded-md py-1 w-[80%] mx-auto'>Disable</button>
+                                        !items.mobile ? <span className='flex justify-center gap-2'><button className='text-green-800'><FaEdit /></button> <button className='text-red-500'><FaTrashAlt /></button></span> : <button className='bg-red-700 text-white rounded-md py-1 w-[80%] mx-auto' onClick={()=>{handleUserDisable}}>Disable</button>
                                     }
                                 </td>
                             </tr>

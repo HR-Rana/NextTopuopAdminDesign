@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { IoMdArrowDropdown } from "react-icons/io";
+import { useReducer } from 'react';
+import { AdminReducer, InitialState } from '../assets/Reducer/AdminReducer';
 
 
 
@@ -8,8 +10,15 @@ import { IoMdArrowDropdown } from "react-icons/io";
 
 
 export default function Left_site_Layout() {
+
+    const [state, dispatch] = useReducer(AdminReducer, InitialState);
+
+    console.log(state)
+
+
+
   return (
-    <div className="left-site-layout sticky top-0 rounded-md py-5">
+    <div className="left-site-layout w-[85%] mx-auto sticky top-0 rounded-md py-5">
     <div className="left-sidebar ">
         <span className=''>
             <h6 className='text-[22px] text-purple-800 px-5 font-semibold py-5'>TONG-Topup</h6>

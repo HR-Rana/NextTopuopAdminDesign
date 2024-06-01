@@ -21,11 +21,18 @@
   scrollbar-width: none;
 }
 
+.right-sidebar {
+  width: 98%;
+  margin: 0 auto;
+  transition: .9s;
+}
+
 .layout-flex-box .left-items {
-  width: 230px;
+  width: 22%;
   height: 100dvh;
   position: sticky;
   top: 0;
+  transition: .9s;
 }
 
 .left-sidebar {
@@ -37,31 +44,31 @@
 .list-items ul {
   width: 100%;
   display: flex;
-  gap: 10px;
   flex-direction: column;
-  /* line-height: 30px; */
+  gap: 10px;
+
 }
 
 .list-items ul li {
   width: 100%;
-  height: 40px;
-  display: flex;
   align-items: center;
   list-style: none;
   font-weight: 600;
   cursor: pointer;
-
   transition: ease-in-out .3s;
 }
 
 .list-items ul li:hover {
-  background-color: purple;
-  color: white;
+  background-color: rgb(196, 196, 196);
+  color: rgb(0, 0, 0);
 }
+
 
 .list-items ul li a {
   width: 100%;
   padding: 0px 25px;
+  display: flex;
+  align-items: center;
 }
 
 .list-items ul li span {
@@ -80,5 +87,11 @@
 
 .list-items ul ul {
   width: 100%;
-  display: none;
+  display: block;
+  background-color: rgb(235, 235, 235);
+}
+
+.list-items ul ul li {
+  display: block;
+  line-height: 32px;
 }
