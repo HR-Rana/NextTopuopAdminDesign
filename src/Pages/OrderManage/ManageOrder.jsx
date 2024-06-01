@@ -10,7 +10,7 @@ export default function ManageOrder() {
   return (
     <div>
       <div className='Page-heading mt-5 ml-1'>   
-        <h4>Order list Page</h4>
+        <h5>Order list Page</h5>
        </div>
 
 
