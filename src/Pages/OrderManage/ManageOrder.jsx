@@ -17,7 +17,7 @@ export default function ManageOrder() {
       <div className="table-area my-5 py-7 px-3 shadow-lg shadow-gray-300 rounded-md">
           <div className="heading">
               <span>
-                <input type="Search" placeholder='Search Here' className='px-3 py-2 mb-3 min-w-full rounded-md outline-none' value={''} />
+                <input type="Search" placeholder='Search Here' className='px-3 py-2 mb-3 min-w-full rounded-md bg-gray-100 outline-none' value={''} />
               </span>
           </div>
           <span>

@@ -22,11 +22,23 @@ export default function Table({thData, tbodyData}) {
                             <tr className='' key={i}>
                                 <td>{items.id}</td>
                                 <td>{items.name}</td>
-                                <td>{items.offer}</td>
-                                <td>{items.operator}</td>
+                               {
+                                items.offer ?  <td>{items.offer}</td> :null
+                               }
+                               {
+                                items.operator ?  <td>{items.operator}</td> :null
+                               }
                                 <td>{items.mobile}</td>
-                                <td>{items.status}</td>
-                                <td><span className='flex justify-center gap-2'><button className='text-green-800'><FaEdit /></button> <button className='text-red-500'><FaTrashAlt /></button></span></td>
+                               {
+                                items.time ? <td>{items.time}</td> :null
+                               }
+                                
+                                {
+                                    items.status ? <td>{items.status}</td> : null
+                                }
+                                <td>
+                                    <span className='flex justify-center gap-2'><button className='text-green-800'><FaEdit /></button> <button className='text-red-500'><FaTrashAlt /></button></span>
+                                </td>
                             </tr>
                         )
                     })

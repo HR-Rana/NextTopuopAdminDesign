@@ -51,3 +51,51 @@ export const TableBody = [
         status: "Pending",
     }
 ]
+
+
+
+
+
+
+
+export const userThead = [
+    {
+        name: "Id",
+    }, {
+        name: "Name",
+    }, {
+        name: "Mobile",
+    }, {
+        name: "Member Since",
+    }, {
+        name: "Action",
+    },
+]
+
+export const UserTbody = [
+    {
+        id: "01",
+        name: "Rubel",
+        mobile: "01697832",
+        time: "02-5-2024"
+    },
+    {
+        id: "02",
+        name: "Kalim",
+        mobile: "01697832",
+        time: "02-5-2024"
+    },
+    {
+        id: "03",
+        name: "Jamil",
+        mobile: "01697845",
+        time: "02-5-2024"
+    },
+    {
+
+        id: "04",
+        name: "Kamal",
+        mobile: "01957832",
+        time: "02-5-2024"
+    }
+]

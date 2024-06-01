@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Left_site_Layout() {
   return (
-    <div className="left-site-layout rounded-md py-5 px-3">
+    <div className="left-site-layout sticky top-0 rounded-md py-5 px-3">
     <div className="left-sidebar">
         <span>
 
