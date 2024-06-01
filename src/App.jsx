@@ -2,6 +2,7 @@ import { BrowserRouter } from 'react-router-dom'
 import './App.css'
 import Routing from './assets/Routing/Routing'
 import Left_site_Layout from './Pages/Layout'
+import Headaer from './assets/PagesHeader/Headaer'
 
 
 function App() {
@@ -9,14 +10,15 @@ function App() {
 
   return (
       <BrowserRouter>
-          <div className="bg-gray-200">
-            <div className='layout-flex-box items-center justify-between'>
-              <span className='min-w-[250px] bg-gray-200'>
+          <div className="bg-gray-100">
+            <div className='layout-flex-box justify-between'>
+              <div className='py-[25px] mx-auto w-[230px] left-items'>
                   <Left_site_Layout />
-              </span>
-              <span className='min-w-[80%] bg-slate-500'>
+              </div>
+              <div className='w-[80%]'>
+                <Headaer title={"Welcome to Admin"} />
                 <Routing />
-              </span>
+              </div>
             </div>
           </div>
       </BrowserRouter>

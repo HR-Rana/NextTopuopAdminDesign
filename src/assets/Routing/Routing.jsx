@@ -21,7 +21,7 @@ export default function Routing() {
     <Routes>
 
         {/* Dashboard Root page */}
-        <Route path='/' element={<Dashboard />}/>
+        <Route path='/Dashboard' element={<Dashboard />}/>
 
         {/* Admin Role Manage */}
         <Route path='/Admin/Role-manage' element={<ManageOrder />}/>

@@ -5,7 +5,50 @@
 
 
 
-
 h4 {
-  @apply font-semibold text-[50px]
+  @apply text-[26px]
+}
+
+h5 {
+  @apply font-semibold text-[22px]
+}
+
+.table-area {
+  @apply !min-w-fit bg-white
+}
+
+.table-area {
+  min-width: 100%;
+}
+
+table {
+  @apply !w-full border-[.5px] border-gray-400 my-5 !min-w-full !overflow-x-scroll
+}
+
+table thead {
+  @apply h-[50px]
+}
+
+table thead th {
+  @apply h-[50px]
+}
+
+table tr {
+  @apply h-[60px]
+}
+
+table tr td {
+  @apply text-center border-2
+}
+
+table tfoot {
+  @apply h-[50px]
+}
+
+.paginaton span {
+  @apply flex items-end justify-end gap-2
+}
+
+.paginaton button {
+  @apply w-[50px] bg-slate-200 text-black rounded-sm h-[30px] flex items-center justify-center
 }

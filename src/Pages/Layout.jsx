@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 
 export default function Left_site_Layout() {
   return (
-    <div className="left-site-layout">
+    <div className="left-site-layout rounded-md py-5 px-3">
     <div className="left-sidebar">
         <span>
 
         </span>
-        <div className="list-items">
+        <div className="list-items flex flex-col items-center">
             <ul>
                 <li> <Link to={"/Dashboard"} >Dashboard</Link> </li>
                 <li> <Link to={"/Admin/"} >Admin</Link> </li>
